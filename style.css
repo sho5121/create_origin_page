@@ -1,0 +1,105 @@
+* {
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+i{
+    font-size: 24px;
+    background-color: azure;
+    cursor: pointer;
+}
+header{
+    position: fixed;
+    top: 0;
+    right:0;
+    left:0;
+    padding:16px 24px;
+    background-color: blue;
+    z-index: 100;
+}
+header nav{
+    display: flex;
+    width:max-content;
+    margin: 0 0 0 auto;
+}
+header nav a{
+    display: block;
+    margin: 0 24px;
+    font-size: 14px;
+    color: yellow;
+    cursor: pointer;
+}
+.container{
+    padding-top: 70px;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.title{
+    font: bold;
+    font-size:25px;
+}
+h1{
+    font-size :50px;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+}
+.mato{
+   width:200px;
+    margin:0 auto;
+}
+.mato_image{
+    width :200px;
+   height:200px; 
+}
+.info_mato{
+    text-align: center;
+    color:gray;
+    font-style: italic
+}
+.scene_image{
+    width: 90%;
+}
+.scene{
+    width :90%;
+    margin: 0 auto;
+}
+.bougu{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:190px;
+    
+}
+.bougu_image{
+    width:180px;
+    height:180px;
+    box-shadow: 2px 2px 2px;
+}
+.bougu_image:hover{
+    width:190px;
+    height:190px;
+    transition: all 0.3s ease 0s;
+    box-shadow: 6px 6px 6px;
+}
+.bougu_info{
+    font-size: 15px;
+}
+.bougu_title{
+    font-size: 20px;
+    }
+    
+    
+    
+    
+    
+
+
+
+
+footer{
+    padding: 20px;
+    color: yellow;
+    text-align: center;
+    background-color: blue;
+}
