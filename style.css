@@ -74,7 +74,7 @@ h2{
 .bougu_image{
     width:180px;
     height:180px;
-    box-shadow: 2px 2px 2px;
+    box-shadow: 3px 3px 3px;
 }
 .bougu_image:hover{
     width:190px;
@@ -88,6 +88,10 @@ h2{
 .bougu_title{
     font-size: 20px;
     }
+.bougu_wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
     
     
     
